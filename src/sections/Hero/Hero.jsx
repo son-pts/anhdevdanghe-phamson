@@ -6,6 +6,8 @@ import facebookDark from '../../assets/facebook-dark.svg';
 import facebookLight from '../../assets/facebook-light.svg';
 import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
+import tiktokDark from '../../assets/tiktok-dark.png';
+import tiktokLight from '../../assets/tiktok-light.png';
 import zaloLight from '../../assets/zalo-light.svg';
 import zaloDark from '../../assets/zalo-dark.svg';
 import CV from '../../assets/cv.pdf';
@@ -18,6 +20,7 @@ function Hero() {
   const facebookIcon = theme === 'light' ? facebookLight : facebookDark;
   const githubIcon = theme === 'light' ? githubLight : githubDark;
   const zaloIcon = theme === 'light' ? zaloLight : zaloDark;
+  const tiktokIcon = theme === 'light' ? tiktokLight : tiktokDark;
 
   return (
     <section id="hero" className={styles.container}>
@@ -50,6 +53,9 @@ function Hero() {
           </a>
           <a href="tel:+84975934200">
             <img src={zaloIcon} alt="Zalo icon" />
+          </a>
+          <a href="https://www.tiktok.com/@phamson2j" target="_blank">
+            <img src={tiktokIcon} alt="Zalo icon" />
           </a>
         </span>
         <p className={styles.description}>
