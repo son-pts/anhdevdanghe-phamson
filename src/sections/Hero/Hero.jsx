@@ -42,8 +42,9 @@ function Hero() {
           Pham Son
         </h1>
         <h2>Frontend Developer</h2> 
-        <h2>Videographer - Photographer</h2>
         <h2>UI/UX DESIGN</h2>
+        <h2>Videographer</h2>
+        <h2>Photographer</h2>
         <span>
           <a href="https://www.facebook.com/phamson2k/" target="_blank">
             <img src={facebookIcon} alt="Twitter icon" />

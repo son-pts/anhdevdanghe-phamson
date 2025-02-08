@@ -7,7 +7,8 @@
     width: fit-content;
     align-self: center;
     background-color: var(--project-card-bg);
-    border-radius: 5px;
+    border-style: none;
+    border-radius: 10px;
   }
 
   a {
