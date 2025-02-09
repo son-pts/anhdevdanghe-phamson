@@ -17,7 +17,7 @@ const videoProjects = [
   },
   {
     src: "https://www.youtube.com/embed/xVvGHyFYS5A",
-    title: "Bảo Ngọc",
+    title: "Bảo Ngọc Academy",
     description: "Videographer",
     link: "https://www.youtube.com/watch?v=xVvGHyFYS5A",
   },
@@ -26,6 +26,12 @@ const videoProjects = [
     title: "Bổn Mạng SOB",
     description: "Videographer",
     link: "https://www.youtube.com/watch?v=DlZ3HcJjC3I",
+  },
+  {
+    src: "https://www.youtube.com/embed/ACqs-YwZXMM",
+    title: "Du Học Công Giáo",
+    description: "Video Edit",
+    link: "https://www.youtube.com/watch?v=ACqs-YwZXMM",
   },
 ];
 
@@ -171,27 +177,27 @@ function Projects() {
           {activeTab === "image" && (
             <div className="content-box">
               <div className={styles.projectsContainer}>
-                {imageProjects.map((project, index) => (
+                {/* {imageProjects.map((project, index) => (
                   <ProjectCard key={index} {...project} />
-                ))}
+                ))} */}
               </div>
             </div>
           )}
           {activeTab === "code" && (
             <div className="content-box">
               <div className={styles.projectsContainer}>
-                {codeProjects.map((project, index) => (
+                {/* {codeProjects.map((project, index) => (
                   <ProjectCard key={index} {...project} />
-                ))}
+                ))} */}
               </div>
             </div>
           )}
           {activeTab === "design" && (
             <div className="content-box">
               <div className={styles.projectsContainer}>
-                {designProjects.map((project, index) => (
+                {/* {designProjects.map((project, index) => (
                   <ProjectCard key={index} {...project} />
-                ))}
+                ))} */}
               </div>
             </div>
           )}
