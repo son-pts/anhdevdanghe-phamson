@@ -27,10 +27,10 @@
     min-height: 100px;
   }
   
-  .content-box {
+  /* .content-box {
     display: flex;
     justify-content: space-around;
-  }
+  } */
   
   .box {
     padding: 15px;
@@ -50,5 +50,9 @@
     margin: 0 auto;
   }
  
+  .see_more{
+    text-decoration: underline !important;
+    font-size: larger;
+  }
 
   

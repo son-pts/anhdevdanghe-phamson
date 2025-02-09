@@ -4,25 +4,28 @@ import "./TabsStyles.css";
 
 const videoProjects = [
   {
-    src: "https://www.youtube.com/embed/KHqTWHC2qsA",
-    title: "Viberr",
-    description: "Streaming App",
-    link: "https://www.viberr.com",
+    src: "https://www.youtube.com/embed/govJxyN2b1I",
+    title: "Cafe Dốc Thị",
+    description: "Videographer",
+    link: "https://www.youtube.com/watch?v=govJxyN2b1I",
   },
   {
-    src: "https://www.youtube.com/embed/I9XXCvvAc4A?si=NdqU-86TtaLDJPc7",
-    title: "Lil Wuyn - An",
-    description: "Hamburger Restaurant",
+    src: "https://www.youtube.com/embed/rwgkHtJA5xA",
+    title: "Adam Store",
+    description: "Video Edit",
+    link: "https://www.youtube.com/watch?v=rwgkHtJA5xA",
   },
   {
-    src: "https://www.youtube.com/embed/eh_Np_LiQTY",
-    title: "Hipsster",
-    description: "Glasses Shop",
+    src: "https://www.youtube.com/embed/xVvGHyFYS5A",
+    title: "Bảo Ngọc",
+    description: "Videographer",
+    link: "https://www.youtube.com/watch?v=xVvGHyFYS5A",
   },
   {
-    src: "https://www.youtube.com/embed/eh_Np_LiQTY",
-    title: "FitLift",
-    description: "Fitness App",
+    src: "https://www.youtube.com/embed/DlZ3HcJjC3I",
+    title: "Bổn Mạng SOB",
+    description: "Videographer",
+    link: "https://www.youtube.com/watch?v=DlZ3HcJjC3I",
   },
 ];
 
@@ -31,7 +34,6 @@ const imageProjects = [
     src: "https://cdn-media.sforum.vn/storage/app/media/ctv_seo3/anh-co-gai-xinh-dep-66.jpg",
     title: "Hipsster",
     description: "Glasses Shop",
-    link: "https://www.viberr.com",
   },
   {
     src: "https://cdn-media.sforum.vn/storage/app/media/ctv_seo3/anh-co-gai-xinh-dep-66.jpg",
@@ -156,6 +158,14 @@ function Projects() {
                   <ProjectCard key={index} {...project} />
                 ))}
               </div>
+              <a
+                rel="noopener noreferrer"
+                className="see_more"
+                href="https://www.youtube.com/playlist?list=PLWFOHKZmaOJTpLJAPKcqllZkOGzIaGTbZ"
+                target="_blank"
+              >
+                See more
+              </a>
             </div>
           )}
           {activeTab === "image" && (
