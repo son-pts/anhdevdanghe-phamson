@@ -33,6 +33,12 @@ const videoProjects = [
     description: "Video Edit",
     link: "https://www.youtube.com/watch?v=ACqs-YwZXMM",
   },
+  {
+    src: "https://www.youtube.com/embed/tDPDSZlTpUE",
+    title: "Video Fashion",
+    description: "Video Edit",
+    link: "https://www.youtube.com/watch?v=tDPDSZlTpUE",
+  },
 ];
 
 const imageProjects = [
